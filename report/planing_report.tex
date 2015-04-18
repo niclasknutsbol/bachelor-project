@@ -1,0 +1,56 @@
+\documentclass{article}
+
+%swedish letters
+
+\usepackage{fontspec}
+
+% reference handling
+\usepackage{cite}
+\usepackage[nottoc]{tocbibind} 
+\usepackage[square,comma,numbers]{natbib} 
+\bibpunct{[}{]}{;}{n}{,}{,}
+\usepackage{natbib}
+
+
+\author{Lars Niclas Jonsson - nicjo134}
+\date{today}
+\title{Planing report}
+
+\begin{document}
+
+\maketitle
+
+\section{Author}
+Lars Niclas Jonsson
+\section{Temporary title}
+Implementation and testing of an fpt algorithm for computing the h+ heuristic
+
+\section{Problem definition}
+\subsection{Problem}
+Bäckström \cite{Backstrom2014a} describe an ftp-algorithm which compute h\^+, i.e. the optimized heuristic function for relaxed planning.
+
+In this thesis, we will implement and run Christens algorithm in the planner “Fast Downward”\cite{Helmert2006} and test how “good” the algorithm performs compared to another heuristic’s algorithm.
+
+How “good” the performance is depends on its running time compared to the other heuristic functions running time and how many nodes it visits. The most important factor is the running time but since the performance depends on how optimally the algorithm has been implemented and because of the fact that the h\^+ heuristic is considered to be a very good heuristic, the actual search time could take less time.
+
+\subsection{Expected result}
+I expect to have two running times for each instance, one for my implementation and one for .....dflöljkdfsjkldsfjkldfsklndsf
+
+\section{Approach}
+Bäckström algorithm will be implemented in the planning system Fast Downward(FD). A heuristic function that is in FD by default will be used to compare the running speed.
+
+The input to the planner is a planning instance written in PDDL. Instances that has been used in the planning competition IPC will be used as input in this thesis.
+
+\section{Literature}
+
+
+\cite{Backstrom2014a} is the background for this thesis..
+\cite{Bodlaender1993} descriebe an algorithm which can find a tree-decompositions in linear time. This is needed for implementing the main algorithm.
+Helmers paper \cite{Helmert2006} will be used to learn about the planning system Fast Downward.
+
+
+%#####
+\bibliographystyle{plain}
+\bibliography{ref}
+
+\end{document}

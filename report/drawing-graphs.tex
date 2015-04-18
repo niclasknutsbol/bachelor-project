@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usetikzlibrary{graphdrawing}
+\usetikzlibrary{graphs}
+\usegdlibrary{trees}
+
+\begin{document}
+
+Some text above.
+
+\begin{tikzpicture}[>=stealth, every node/.style={circle, draw, minimum      size=0.75cm}]
+   \graph [tree layout, grow=down, fresh nodes, level distance=0.5in, sibling distance=0.5in]
+    {
+        A -> {
+          B -> { A -> {C}, C -> {D} ,D },
+          C -> { A, B -> {C  ,D} },
+          D -> { C }
+        }
+    };
+\end{tikzpicture}
+
+\begin{tikzpicture}[>=stealth, every node/.style={circle, draw, minimum      size=0.75cm}]
+   \graph [tree layout, grow=down, fresh nodes, level distance=0.5in, sibling distance=0.5in]
+    {
+        A -> {
+          B -> { A -> {C}, C -> {D} ,D },
+          C -> { A, B -> {C  ,D} },
+          D -> { C }
+        }
+    };
+\end{tikzpicture}
+
+
+Some other text below.
+
+\end{document}

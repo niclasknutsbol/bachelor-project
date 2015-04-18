@@ -1,0 +1,24 @@
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2015.4.14)  15 APR 2015 14:59
+ restricted \write18 enabled.
+**bachelor-thesiseng.t
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/q.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+File ignored
+)
+! Emergency stop.
+<*> bachelor-thesiseng.t
+                     
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 8 strings out of 494695
+ 100000,89155 words of node,token memory allocated 188 words of node memory still in use:
+   31 glue_spec, 1 dir nodes
+   avail lists: 2:12,3:1
+ 3846 multiletter control sequences out of 65536+600000
+ 14 fonts using 562767 bytes
+ 5i,0n,1p,99b,8s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

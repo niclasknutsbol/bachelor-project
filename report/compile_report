@@ -1,0 +1,8 @@
+#!/bin/bash
+# My first script
+
+rm bachelor_thesiseng.aux
+lualatex bachelor_thesiseng
+bibtex bachelor-thesiseng
+lualtex bachelor-thesiseng
+open bachelor_thesiseng.pdf

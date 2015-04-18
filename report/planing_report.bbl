@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{Backstrom2014a}
+C~B\"{a}ckstr\"{o}m.
+\newblock {Parameterising the Complexity of Planning by the Number of Paths in
+  the Domain-transition Graphs}.
+\newblock {\em Proc. 21st European Conf. Artif. Intell.(ECAI-14), \ldots},
+  2014.
+
+\bibitem{Bodlaender1993}
+HL~Bodlaender.
+\newblock {A linear time algorithm for finding tree-decompositions of small
+  treewidth}.
+\newblock {\em Proceedings of the twenty-fifth annual ACM symposium \ldots},
+  1993.
+
+\bibitem{Helmert2006}
+M~Helmert.
+\newblock {The Fast Downward Planning System.}
+\newblock {\em J. Artif. Intell. Res.(JAIR)}, 2006.
+
+\end{thebibliography}

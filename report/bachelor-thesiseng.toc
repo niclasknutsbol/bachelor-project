@@ -1,0 +1,16 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Background and Motivation}{1}
+\contentsline {subsection}{\numberline {1.1.1}Introduction}{1}
+\contentsline {section}{\numberline {1.2}Problem definition}{2}
+\contentsline {section}{\numberline {1.3}Limitations}{4}
+\contentsline {section}{\numberline {1.4}Previous Work}{4}
+\contentsline {chapter}{\numberline {2}Theory}{5}
+\contentsline {section}{\numberline {2.1}Definitons}{5}
+\contentsline {subsection}{\numberline {2.1.1}SAS Planing instance}{5}
+\contentsline {subsection}{\numberline {2.1.2}Transition Graphs}{5}
+\contentsline {subsection}{\numberline {2.1.3}Causal Graphs}{6}
+\contentsline {subsection}{\numberline {2.1.4}Tree decompostions}{6}
+\contentsline {section}{\numberline {2.2}Heuristic planing}{6}
+\contentsline {section}{\numberline {2.3}Fast Wordward}{6}
+\contentsline {chapter}{Bibliography}{7}

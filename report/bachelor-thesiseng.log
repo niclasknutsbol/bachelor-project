@@ -1,0 +1,2031 @@
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2015.4.14)  18 APR 2015 15:23
+ restricted \write18 enabled.
+**bachelor-thesiseng.tex
+(./bachelor-thesiseng.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(./idamasterthesis.cls
+Document Class: idamasterthesis 2011/04/19 LaTeX idamasterthesis class
+(./idathesis.cls
+Document Class: idathesis 2005/11/10 LaTeX idathesis class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2014/05/20 v4814 L3 programming layer (loader) 
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2014/05/20 v4814 L3 programming layer (code) 
+L3 Module: l3bootstrap 2014/05/16 v4782 L3 Bootstrap code
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count79
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/luatex.sty
+Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+\LuT@AllocAttribute=\count277
+\LuT@AllocCatcodeTable=\count278
+\CatcodeTableStack=\count279
+\CatcodeTableIniTeX=\catcodetable1
+\CatcodeTableString=\catcodetable3
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableLaTeX=\catcodetable7
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
+
+(/usr/local/texlive/2014/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)))
+L3 Module: l3names 2014/05/04 v4728 L3 Namespace for primitives
+L3 Module: l3basics 2014/05/04 v4728 L3 Basic definitions
+L3 Module: l3expan 2014/04/30 v4712 L3 Argument expansion
+L3 Module: l3tl 2014/05/04 v4728 L3 Token lists
+L3 Module: l3seq 2014/04/30 v4712 L3 Sequences and stacks
+L3 Module: l3int 2014/05/16 v4776 L3 Integers
+\c_max_int=\count280
+\l_tmpa_int=\count281
+\l_tmpb_int=\count282
+\g_tmpa_int=\count283
+\g_tmpb_int=\count284
+L3 Module: l3quark 2014/05/04 v4728 L3 Quarks
+L3 Module: l3prg 2014/05/04 v4728 L3 Control structures
+\g__prg_map_int=\count285
+L3 Module: l3clist 2014/05/04 v4728 L3 Comma separated lists
+L3 Module: l3token 2014/05/04 v4728 L3 Experimental token manipulation
+L3 Module: l3prop 2014/04/30 v4712 L3 Property lists
+L3 Module: l3msg 2014/05/04 v4728 L3 Messages
+L3 Module: l3file 2014/05/05 v4737 L3 File and I/O operations
+\l_iow_line_count_int=\count286
+\l__iow_target_count_int=\count287
+\l__iow_current_line_int=\count288
+\l__iow_current_word_int=\count289
+\l__iow_current_indentation_int=\count290
+L3 Module: l3skip 2014/05/05 v4738 L3 Dimensions and skips
+\c_zero_dim=\dimen256
+\c_max_dim=\dimen257
+\l_tmpa_dim=\dimen258
+\l_tmpb_dim=\dimen259
+\g_tmpa_dim=\dimen260
+\g_tmpb_dim=\dimen261
+\c_zero_skip=\skip256
+\c_max_skip=\skip257
+\l_tmpa_skip=\skip258
+\l_tmpb_skip=\skip259
+\g_tmpa_skip=\skip260
+\g_tmpb_skip=\skip261
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+L3 Module: l3keys 2014/05/08 v4753 L3 Key-value interfaces
+\g__keyval_level_int=\count291
+\l_keys_choice_int=\count292
+L3 Module: l3fp 2014/04/30 v4712 L3 Floating points
+\c__fp_leading_shift_int=\count293
+\c__fp_middle_shift_int=\count294
+\c__fp_trailing_shift_int=\count295
+\c__fp_big_leading_shift_int=\count296
+\c__fp_big_middle_shift_int=\count297
+\c__fp_big_trailing_shift_int=\count298
+\c__fp_Bigg_leading_shift_int=\count299
+\c__fp_Bigg_middle_shift_int=\count300
+\c__fp_Bigg_trailing_shift_int=\count301
+L3 Module: l3box 2014/05/04 v4728 L3 Experimental boxes
+\c_empty_box=\box256
+\l_tmpa_box=\box257
+\l_tmpb_box=\box258
+\g_tmpa_box=\box259
+\g_tmpb_box=\box260
+L3 Module: l3coffins 2014/05/04 v4728 L3 Coffin code layer
+\l__coffin_internal_box=\box261
+\l__coffin_internal_dim=\dimen262
+\l__coffin_offset_x_dim=\dimen263
+\l__coffin_offset_y_dim=\dimen264
+\l__coffin_x_dim=\dimen265
+\l__coffin_y_dim=\dimen266
+\l__coffin_x_prime_dim=\dimen267
+\l__coffin_y_prime_dim=\dimen268
+\c_empty_coffin=\box262
+\l__coffin_aligned_coffin=\box263
+\l__coffin_aligned_internal_coffin=\box264
+\l_tmpa_coffin=\box265
+\l_tmpb_coffin=\box266
+\l__coffin_display_coffin=\box267
+\l__coffin_display_coord_coffin=\box268
+\l__coffin_display_pole_coffin=\box269
+\l__coffin_display_offset_dim=\dimen269
+\l__coffin_display_x_dim=\dimen270
+\l__coffin_display_y_dim=\dimen271
+L3 Module: l3color 2014/04/30 v4712 L3 Experimental color support
+L3 Module: l3luatex 2014/04/30 v4712 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count302
+\g__cctab_stack_int=\count303
+\c_code_cctab=\catcodetable9
+L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen272
+\l__box_bottom_dim=\dimen273
+\l__box_left_dim=\dimen274
+\l__box_right_dim=\dimen275
+\l__box_top_new_dim=\dimen276
+\l__box_bottom_new_dim=\dimen277
+\l__box_left_new_dim=\dimen278
+\l__box_right_new_dim=\dimen279
+\l__box_internal_box=\box270
+\l__coffin_bounding_shift_dim=\dimen280
+\l__coffin_left_corner_dim=\dimen281
+\l__coffin_right_corner_dim=\dimen282
+\l__coffin_bottom_corner_dim=\dimen283
+\l__coffin_top_corner_dim=\dimen284
+\l__coffin_scaled_total_height_dim=\dimen285
+\l__coffin_scaled_width_dim=\dimen286
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2014/05/05 v4740 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count304
+\l__xparse_m_args_int=\count305
+\l__xparse_mandatory_args_int=\count306
+\l__xparse_processor_int=\count307
+\l__xparse_v_nesting_int=\count308
+)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2014/05/18 v2.4-4 OpenType layout system
+
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2013/05/11 v0.6 Resource management for the LuaTeX macro pro
+grammer
+
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty
+Package: luatexbase-compat 2011/05/24 v0.4 Compatibility tools for LuaTeX
+)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.s
+ty
+Package: luatexbase-modutils 2013/05/11 v0.6 Module utilities for LuaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.sty
+Package: luatexbase-loader 2013/05/11 v0.6 Lua module loader for LuaTeX
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.lua)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/modutils.lua)
+Lua module: luatexbase-modutils 2013/05/11 0.6 Module utilities for LuaTeX
+)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty
+Package: luatexbase-regs 2011/05/24 v0.4 Registers allocation for LuaTeX
+)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
+Package: luatexbase-attr 2013/05/11 v0.6 Attributes allocation for LuaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/attr.lua)
+Lua module: luatexbase-attr 2013/05/11 0.6 Attributes allocation for LuaTeX
+\lltxb@attr@unsetvalue=\count309
+)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
+Package: luatexbase-cctb 2013/05/11 v0.6 Catcodetable allocation for LuaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/cctb.lua)
+Lua module: luatexbase-cctb 2013/05/11 0.6 Catcodetable allocation for LuaTeX
+\lltxb@catcodetable@alloc=\count310
+\CatcodeTableStack=\count311
+\CatcodeTableIniTeX=\luatexcatcodetable1
+\CatcodeTableString=\luatexcatcodetable3
+\CatcodeTableOther=\luatexcatcodetable5
+\CatcodeTableLaTeX=\luatexcatcodetable7
+\CatcodeTableLaTeXAtLetter=\luatexcatcodetable9
+\CatcodeTableExpl=\luatexcatcodetable11
+)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
+Package: luatexbase-mcb 2013/05/11 v0.6 Callback management for LuaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luatexbase/mcb.lua)
+Lua module: luatexbase-mcb 2013/05/11 0.6 register several functions in a callba
+ck
+))
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload.lua)
+Lua module: luaotfload 2014/05/18 2.40005 OpenType layout system.
+luaotfload: push namespace for font loader
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload-fontloader.
+lua)(using write cache: /Users/niclas/Library/texlive/2014/texmf-var/luatex-cach
+e/generic)(using read cache: /usr/local/texlive/2014/texmf-var/luatex-cache/gene
+ric /Users/niclas/Library/texlive/2014/texmf-var/luatex-cache/generic)
+luatexbase-attr: luatexbase.attributes["luaotfload@kernpair"] = 1
+luatexbase-attr: luatexbase.attributes["luaotfload@ligacomp"] = 2
+luatexbase-attr: luatexbase.attributes["luaotfload@markbase"] = 3
+luatexbase-attr: luatexbase.attributes["luaotfload@markmark"] = 4
+luatexbase-attr: luatexbase.attributes["luaotfload@markdone"] = 5
+luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
+luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
+luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
+luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
+luaotfload: "I am using the merged version of 'luaotfload.lua' here.
+luaotfload:  If you run into problems or experience unexpected
+luaotfload:  behaviour, and if you have ConTeXt installed you can try
+luaotfload:  to delete the file 'luaotfload-merged.lua' as I might
+luaotfload:  then use the possibly updated libraries. The merged
+luaotfload:  version is not supported as it is a frozen instance.
+luaotfload:  Problems can be reported to the ConTeXt mailing list."
+luaotfload: pop namespace from font loader -- non-destructive
+luaotfload: fontloader loaded in 0.023 seconds
+luatexbase-mcb: inserting 'luaotfload.node_processor'
+at position 1 in 'pre_linebreak_filter'
+luatexbase-mcb: inserting 'luaotfload.node_processor'
+at position 1 in 'hpack_filter'
+luatexbase-mcb: inserting 'luaotfload.find_vf_file'
+at position 1 in 'find_vf_file'
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload-override.lu
+a)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua
+)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lu
+a)
+luaotfload | db : Shell escape disabled or tput executable missing.
+luaotfload | db : Assuming 79 cols terminal width.
+luaotfload | db : Root cache directory is /Users/niclas/Library/texlive/2014/tex
+mf-var/luatex-cache/generic/names.
+luaotfload | cache : Caching of name: lookups active.
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua)
+luatexbase-mcb: creating 'luaotfload.resolve_font' type 4
+luatexbase-mcb: creating 'luaotfload.patch_font' type 4
+luatexbase-mcb: resetting callback 'define_font'
+luatexbase-mcb: inserting 'luaotfload.define_font'
+at position 1 in 'define_font'
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload-features.lu
+a)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload-letterspace
+.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/luaotfload/luaotfload-auxiliary.l
+ua)
+luatexbase-mcb: inserting 'luaotfload.aux.set_sscale_dimens'
+at position 1 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.aux.patch_cambria_domh'
+at position 2 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.aux.set_capheight'
+at position 3 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.rewrite_fontname'
+at position 4 in 'luaotfload.patch_font'
+luaotfload | aux : start rewriting tfmdata.name field)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.lua)
+Lua module: fontspec 2013/05/20 2.3c Advanced font selection for LuaLaTeX.
+\l_fontspec_script_int=\count312
+\l_fontspec_language_int=\count313
+\l_fontspec_strnum_int=\count314
+\l_fontspec_tmpa_dim=\dimen287
+\l_fontspec_tmpb_dim=\dimen288
+\l_fontspec_tmpc_dim=\dimen289
+Variant \tl_gset:cV already defined; not changing it on line 69
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaT
+eX
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2014/05/13 v1.1q fixes to LaTeX
+LaTeX Info: Redefining \em on input line 429.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 30.
+LaTeX Info: Redefining \- on input line 33.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 128.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 132.
+.................................................
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTe
+X
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu2enc.def
+File: eu2enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU2+lmr on input line 100.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu2lmr.fd
+File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+luaotfload | db : Font names database loaded(load luc: /Users/niclas/Library/tex
+live/2014/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-regular.luc))
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
+ther characters in Unicode lower plane
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
+uc: /Users/niclas/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/
+lmromanslant10-regular.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
+uc: /Users/niclas/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/
+lmroman10-italic.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
+uc: /Users/niclas/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/
+lmroman10-bold.luc)
+LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu2lmss.fd
+File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
+uc: /Users/niclas/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/
+lmsans10-regular.luc))
+\tipaTiiicode=\count315
+\tipasavetokens=\toks14
+\tipachecktokens=\toks15
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+
+(/usr/local/texlive/2014/texmf-dist/scripts/oberdiek/pdftexcmds.lua)
+\pdftexcmds@toks=\toks17
+)
+\Gread@gobject=\count316
+))
+\Gin@req@height=\dimen290
+\Gin@req@width=\dimen291
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 44.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 49.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 54.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 59.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 68.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 72.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 76.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 80.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 99.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 103.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'om' on line
+. 111.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 147.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 175.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 204.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 206.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 211.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 238.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 259.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 586
+Variant \prop_gput:cnx already defined; not changing it on line 587
+\l_fontspec_tmp_int=\count317
+LaTeX Info: Redefining \itshape on input line 2008.
+LaTeX Info: Redefining \slshape on input line 2013.
+LaTeX Info: Redefining \scshape on input line 2018.
+LaTeX Info: Redefining \upshape on input line 2023.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/changepage/chngpage.sty
+Package: chngpage 2009/10/20 v1.2b change page layout
+\c@cp@cnt=\count318
+\c@cp@tempcnt=\count319
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip262
+\f@ncyO@elh=\skip263
+\f@ncyO@erh=\skip264
+\f@ncyO@olh=\skip265
+\f@ncyO@orh=\skip266
+\f@ncyO@elf=\skip267
+\f@ncyO@erf=\skip268
+\f@ncyO@olf=\skip269
+\f@ncyO@orf=\skip270
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
+\babel@savecnt=\count320
+\U@D=\dimen292
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/luababel.def
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/hyph-utf8/luatex-hyphen.lua)
+luatex-hyphen: using data file: /usr/local/texlive/2014/texmf-var/tex/generic/co
+nfig/language.dat.lua))
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+\c@article=\count321
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count322
+\c@chapter=\count323
+\c@section=\count324
+\c@subsection=\count325
+\c@subsubsection=\count326
+\c@paragraph=\count327
+\c@subparagraph=\count328
+\c@figure=\count329
+\c@table=\count330
+\abovecaptionskip=\skip271
+\belowcaptionskip=\skip272
+\bibindent=\dimen293
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count331
+\Gm@cntv=\count332
+\c@Gm@tempcnt=\count333
+\Gm@bindingoffset=\dimen294
+\Gm@wd@mp=\dimen295
+\Gm@odd@mp=\dimen296
+\Gm@even@mp=\dimen297
+\Gm@layoutwidth=\dimen298
+\Gm@layoutheight=\dimen299
+\Gm@layouthoffset=\dimen300
+\Gm@layoutvoffset=\dimen301
+\Gm@dimlist=\toks19
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/crop/crop.sty
+Package: crop 2003/05/20 v1.9 crop marks (mf)
+\stockwidth=\dimen302
+\stockheight=\dimen303
+\CROP@index=\count334
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+)
+\CROP@offset=\count335
+Package crop Info: Local config file crop.cfg used on input line 605.
+
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xetexconfig/crop.cfg))
+! String contains an invalid utf-8 sequence.
+l.317     \put(1,186){\bf Spr
+                           åk}
+? 
+! String contains an invalid utf-8 sequence.
+l.330     \put(34,162){$\Box$ 
+                            Övrig rapport}
+? 
+! String contains an invalid utf-8 sequence.
+l.333     \put(1,153){\bf URL f
+                             ör elektronisk version}
+? 
+! String contains an invalid utf-8 sequence.
+l.342     \faculty{\put(69,155){Link
+                                  öping Studies in Science and Technology}
+? 
+! String contains an invalid utf-8 sequence.
+l.348     \put(1,122){\bf F
+                         örfattare}
+? 
+! String contains an invalid utf-8 sequence.
+l.362     \put(27,194){581 83 Link
+                                öping}
+? 
+)
+Runaway definition?
+-> \enlargethispage {30mm} \thispagestyle {empty} \scriptsize \setlength \ETC.
+! File ended while scanning definition of \librarypage.
+<inserted text> 
+}
+l.12 
+   
+? 
+! String contains an invalid utf-8 sequence.
+l.29       { \LARGE\textbf{Institutionen f
+                                        ör datavetenskap}\\
+? 
+! String contains an invalid utf-8 sequence.
+l.58           Link
+                 öpings universitet\\Institutionen för datavetenskap
+? 
+! String contains an invalid utf-8 sequence.
+l.58 ...     Linköpings universitet\\Institutionen f
+                                                  ör datavetenskap
+? 
+! String contains an invalid utf-8 sequence.
+l.192 \subsection*{P
+                  å svenska}
+? 
+! String contains an invalid utf-8 sequence.
+l.194 Detta dokument h
+                    ålls tillgängligt på Internet -- eller dess framtida
+? 
+! String contains an invalid utf-8 sequence.
+l.194 Detta dokument hålls tillg
+                              ängligt på Internet -- eller dess framtida
+? 
+! String contains an invalid utf-8 sequence.
+l.194 Detta dokument hålls tillgängligt p
+                                       å Internet -- eller dess framtida
+? 
+! String contains an invalid utf-8 sequence.
+l.195 ers
+       ättare -- under en längre tid från publiceringsdatum under
+? 
+! String contains an invalid utf-8 sequence.
+l.195 ersättare -- under en l
+                           ängre tid från publiceringsdatum under
+? 
+! String contains an invalid utf-8 sequence.
+l.195 ersättare -- under en längre tid fr
+                                       ån publiceringsdatum under
+? 
+! String contains an invalid utf-8 sequence.
+l.196 f
+     örutsättning att inga extra-ordinära omständigheter uppstår.
+? 
+! String contains an invalid utf-8 sequence.
+l.196 föruts
+          ättning att inga extra-ordinära omständigheter uppstår.
+? 
+! String contains an invalid utf-8 sequence.
+l.196 förutsättning att inga extra-ordin
+                                      ära omständigheter uppstår.
+? 
+! String contains an invalid utf-8 sequence.
+l.196 förutsättning att inga extra-ordinära omst
+                                              ändigheter uppstår.
+? 
+! String contains an invalid utf-8 sequence.
+l.196 ...tt inga extra-ordinära omständigheter uppst
+                                                  år.
+? 
+! String contains an invalid utf-8 sequence.
+l.198 Tillg
+         ång till dokumentet innebär tillstånd för var och en att läsa,
+? 
+! String contains an invalid utf-8 sequence.
+l.198 Tillgång till dokumentet inneb
+                                  är tillstånd för var och en att läsa,
+? 
+! String contains an invalid utf-8 sequence.
+l.198 Tillgång till dokumentet innebär tillst
+                                           ånd för var och en att läsa,
+? 
+! String contains an invalid utf-8 sequence.
+l.198 Tillgång till dokumentet innebär tillstånd f
+                                                ör var och en att läsa,
+? 
+! String contains an invalid utf-8 sequence.
+l.198 ...ntet innebär tillstånd för var och en att l
+                                                  äsa,
+? 
+! String contains an invalid utf-8 sequence.
+l.199 ladda ner, skriva ut enstaka kopior f
+                                         ör enskilt bruk och att använda
+? 
+! String contains an invalid utf-8 sequence.
+l.199 ...enstaka kopior för enskilt bruk och att anv
+                                                  ända
+? 
+! String contains an invalid utf-8 sequence.
+l.200 det of
+          örändrat för ickekommersiell forskning och för undervisning.
+? 
+! String contains an invalid utf-8 sequence.
+l.200 det oförändrat f
+                    ör ickekommersiell forskning och för undervisning.
+? 
+! String contains an invalid utf-8 sequence.
+l.200 ...rändrat för ickekommersiell forskning och f
+                                                  ör undervisning.
+? 
+! String contains an invalid utf-8 sequence.
+l.201 
+    Överföring av upphovs-rätten vid en senare tidpunkt kan inte upphäva
+? 
+! String contains an invalid utf-8 sequence.
+l.201 Överf
+         öring av upphovs-rätten vid en senare tidpunkt kan inte upphäva
+? 
+! String contains an invalid utf-8 sequence.
+l.201 Överföring av upphovs-r
+                           ätten vid en senare tidpunkt kan inte upphäva
+? 
+! String contains an invalid utf-8 sequence.
+l.201 ...rätten vid en senare tidpunkt kan inte upph
+                                                  äva
+? 
+! String contains an invalid utf-8 sequence.
+l.202 detta tillst
+                ånd. All annan användning av dokumentet kräver
+? 
+! String contains an invalid utf-8 sequence.
+l.202 detta tillstånd. All annan anv
+                                  ändning av dokumentet kräver
+? 
+! String contains an invalid utf-8 sequence.
+l.202 ...tånd. All annan användning av dokumentet kr
+                                                  äver
+? 
+! String contains an invalid utf-8 sequence.
+l.203 upphovsmannens medgivande. F
+                                ör att garantera äktheten, säkerheten och
+? 
+! String contains an invalid utf-8 sequence.
+l.203 upphovsmannens medgivande. För att garantera 
+                                                 äktheten, säkerheten och
+? 
+! String contains an invalid utf-8 sequence.
+l.203 ...s medgivande. För att garantera äktheten, s
+                                                  äkerheten och
+? 
+! String contains an invalid utf-8 sequence.
+l.204 tillg
+         ängligheten finns det lösningar av teknisk och administrativ art.
+? 
+! String contains an invalid utf-8 sequence.
+l.204 tillgängligheten finns det l
+                                ösningar av teknisk och administrativ art.
+? 
+! String contains an invalid utf-8 sequence.
+l.206 Upphovsmannens ideella r
+                            ätt innefattar rätt att bli nämnd som
+? 
+! String contains an invalid utf-8 sequence.
+l.206 Upphovsmannens ideella rätt innefattar r
+                                            ätt att bli nämnd som
+? 
+! String contains an invalid utf-8 sequence.
+l.206 ...nens ideella rätt innefattar rätt att bli n
+                                                  ämnd som
+? 
+! String contains an invalid utf-8 sequence.
+l.207 upphovsman i den omfattning som god sed kr
+                                              äver vid användning av
+? 
+! String contains an invalid utf-8 sequence.
+l.207 ...i den omfattning som god sed kräver vid anv
+                                                  ändning av
+? 
+! String contains an invalid utf-8 sequence.
+l.208 dokumentet p
+                å ovan beskrivna sätt samt skydd mot att dokumentet ändras
+? 
+! String contains an invalid utf-8 sequence.
+l.208 dokumentet på ovan beskrivna s
+                                  ätt samt skydd mot att dokumentet ändras
+? 
+! String contains an invalid utf-8 sequence.
+l.208 ...skrivna sätt samt skydd mot att dokumentet 
+                                                  ändras
+? 
+! String contains an invalid utf-8 sequence.
+l.209 eller presenteras i s
+                         ådan form eller i sådant sammanhang som är
+? 
+! String contains an invalid utf-8 sequence.
+l.209 eller presenteras i sådan form eller i s
+                                            ådant sammanhang som är
+? 
+! String contains an invalid utf-8 sequence.
+l.209 ...i sådan form eller i sådant sammanhang som 
+                                                  är
+? 
+! String contains an invalid utf-8 sequence.
+l.210 kr
+      änkande för upphovsmannens litterära eller konstnärliga anseende
+? 
+! String contains an invalid utf-8 sequence.
+l.210 kränkande f
+               ör upphovsmannens litterära eller konstnärliga anseende
+? 
+! String contains an invalid utf-8 sequence.
+l.210 kränkande för upphovsmannens litter
+                                       ära eller konstnärliga anseende
+? 
+! String contains an invalid utf-8 sequence.
+l.210 ...e för upphovsmannens litterära eller konstn
+                                                  ärliga anseende
+? 
+! String contains an invalid utf-8 sequence.
+l.213 F
+     ör ytterligare information om Linköping University Electronic Press
+? 
+! String contains an invalid utf-8 sequence.
+l.213 För ytterligare information om Link
+                                       öping University Electronic Press
+? 
+! String contains an invalid utf-8 sequence.
+l.214 se f
+        örlagets hemsida http://www.ep.liu.se/
+? 
+! String contains an invalid utf-8 sequence.
+l.237 For additional information about the Link
+                                             öping University Electronic
+? 
+) (/usr/local/texlive/2014/texmf-dist/tex/lualatex/luatextra/luatextra.sty
+Package: luatextra 2010/10/10 v1.0 Loading usual LuaLaTeX packages
+
+(/usr/local/texlive/2014/texmf-dist/tex/luatex/lualibs/lualibs.lua)
+Lua module: lualibs 2014/05/05 2.11 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2014/05/05 2.11 ConTeXt Lua libraries -- extended c
+ollection.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks20
+\xl@@everylogo=\toks21
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+\luacode@lines=\toks22
+\luacode@table@soft=\luatexcatcodetable13
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip273
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks23
+\ex@=\dimen304
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen305
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count336
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count337
+\leftroot@=\count338
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count339
+\DOTSCASE@=\count340
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box271
+\strutbox@=\box272
+\big@size=\dimen306
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count341
+\c@MaxMatrixCols=\count342
+\dotsspace@=\muskip16
+\c@parentequation=\count343
+\dspbrk@lvl=\count344
+\tag@help=\toks24
+\row@=\count345
+\column@=\count346
+\maxfields@=\count347
+\andhelp@=\toks25
+\eqnshift@=\dimen307
+\alignsep@=\dimen308
+\tagshift@=\dimen309
+\tagwidth@=\dimen310
+\totwidth@=\dimen311
+\lineht@=\dimen312
+\@envbody=\toks26
+\multlinegap=\skip274
+\multlinetaggap=\skip275
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+
+! LaTeX Error: File `uniinput-lualatex.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/local/texlive/2014/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+Package natbib Warning: The `cite' package should not be used
+(natbib)                with natbib. Use option `sort' instead.
+
+\bibhang=\skip276
+\bibsep=\skip277
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citenum on input line 708.
+\c@NAT@ctr=\count348
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen313
+\pgfutil@tempdimb=\dimen314
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box273
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen315
+\pgf@y=\dimen316
+\pgf@xa=\dimen317
+\pgf@ya=\dimen318
+\pgf@xb=\dimen319
+\pgf@yb=\dimen320
+\pgf@xc=\dimen321
+\pgf@yc=\dimen322
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count349
+\c@pgf@countb=\count350
+\c@pgf@countc=\count351
+\c@pgf@countd=\count352
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count353
+\pgfsyssoftpath@bigbuffer@items=\count354
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen323
+\pgfmath@count=\count355
+\pgfmath@box=\box274
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count356
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen324
+\pgf@picmaxx=\dimen325
+\pgf@picminy=\dimen326
+\pgf@picmaxy=\dimen327
+\pgf@pathminx=\dimen328
+\pgf@pathmaxx=\dimen329
+\pgf@pathminy=\dimen330
+\pgf@pathmaxy=\dimen331
+\pgf@xx=\dimen332
+\pgf@xy=\dimen333
+\pgf@yx=\dimen334
+\pgf@yy=\dimen335
+\pgf@zx=\dimen336
+\pgf@zy=\dimen337
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen338
+\pgf@path@lasty=\dimen339
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen340
+\pgf@shorten@start@additional=\dimen341
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box275
+\pgf@hbox=\box276
+\pgf@layerbox@main=\box277
+\pgf@picture@serial@count=\count357
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen342
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen343
+\pgf@pt@y=\dimen344
+\pgf@pt@temp=\dimen345
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen346
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen347
+\pgf@sys@shading@range@num=\count358
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box278
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box279
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen348
+\pgf@nodesepend=\dimen349
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen350
+\pgffor@skip=\dimen351
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count359
+\pgfplotmarksize=\dimen352
+)
+\tikz@lastx=\dimen353
+\tikz@lasty=\dimen354
+\tikz@lastxsaved=\dimen355
+\tikz@lastysaved=\dimen356
+\tikzleveldistance=\dimen357
+\tikzsiblingdistance=\dimen358
+\tikz@figbox=\box280
+\tikz@figbox@bg=\box281
+\tikz@tempbox=\box282
+\tikz@tempbox@bg=\box283
+\tikztreelevel=\count360
+\tikznumberofchildren=\count361
+\tikznumberofcurrentchild=\count362
+\tikz@fig@count=\count363
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count364
+\pgfmatrixcurrentcolumn=\count365
+\pgf@matrix@numberofcolumns=\count366
+)
+\tikz@expandcount=\count367
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+! Undefined control sequence.
+<recently read> \userepackage 
+              
+l.23 \userepackage
+                {pgf}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \userepackage{p
+                  gf}
+? 
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
+\arrowsize=\dimen359
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2008/07/14 v3.0.0 (rcs-revision 1.3)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box284
+\pgfnodeparttwobox=\box285
+\pgfnodepartthreebox=\box286
+\pgfnodepartfourbox=\box287
+\pgfnodeparttwentybox=\box288
+\pgfnodepartnineteenbox=\box289
+\pgfnodeparteighteenbox=\box290
+\pgfnodepartseventeenbox=\box291
+\pgfnodepartsixteenbox=\box292
+\pgfnodepartfifteenbox=\box293
+\pgfnodepartfourteenbox=\box294
+\pgfnodepartthirteenbox=\box295
+\pgfnodeparttwelvebox=\box296
+\pgfnodepartelevenbox=\box297
+\pgfnodeparttenbox=\box298
+\pgfnodepartninebox=\box299
+\pgfnodeparteightbox=\box300
+\pgfnodepartsevenbox=\box301
+\pgfnodepartsixbox=\box302
+\pgfnodepartfivebox=\box303
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks40
+\inpenc@posthook=\toks41
+
+
+! Package inputenc Error: inputenc is not designed for xetex or luatex.
+(inputenc)                only UTF-8 supported.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 \endinput
+             
+? 
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks42
+\verbatim@line=\toks43
+\verbatim@in@stream=\read2
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/flafter.sty
+Package: flafter 2014/04/24 v1.2n Standard LaTeX floats after reference (FMi)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/tex/tikzlibrar
+ygraphdrawing.code.tex
+File: tikzlibrarygraphdrawing.code.tex 2013/08/05 v3.0.0 (rcs-revision 1.20)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrary
+graphdrawing.code.tex
+File: pgflibrarygraphdrawing.code.tex 2013/08/28 v3.0.0 (rcs-revision 1.38)
+\pgf@gd@parameter@stack@height=\count368
+\pgf@gd@node@box=\box304
+\pgf@gd@edge@box=\box305
+\pgf@gd@prekind@box=\box306
+\pgf@gd@postkind@box=\box307
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/inte
+rface/InterfaceToDisplay.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/inte
+rface.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/inte
+rface/InterfaceCore.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/Coordinate.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/inte
+rface/Scope.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/lib.
+lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/lib/
+Storage.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/Digraph.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/Arc.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/Path.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/lib/
+Bezier.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/lib/
+LookupTable.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/Vertex.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/bind
+ings/Binding.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/bind
+ings.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/Sublayouts.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/LayoutPipeline.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/lib/
+Direct.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/lib/
+Simplifiers.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/depr
+ecated/Edge.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/depr
+ecated/Node.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/depr
+ecated/Vector.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/lib/
+Transform.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/depr
+ecated/Graph.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/depr
+ecated/Cluster.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/Edge.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/Collection.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/lib/
+Event.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/bind
+ings/BindingToPGF.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/library.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/mode
+l/Hyperedge.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/inte
+rface/InterfaceToAlgorithms.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/inte
+rface/InterfaceToC.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/doc.
+lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/library.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/FineTune.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/Anchoring.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/Orientation.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/Distances.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/Components.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/ComponentAlign.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/ComponentDirection.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/ComponentDistance.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/ComponentOrder.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/cont
+rol/NodeAnchors.lua)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2013/10/10 v3.0.0 (rcs-revision 1.43)
+\tikz@qnode@count=\count369
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tree
+s/library.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tree
+s/ChildSpec.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tree
+s/SpanningTreeComputation.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tree
+s.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tree
+s/ReingoldTilford1981.lua)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/laye
+red.lua) (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen360
+\captionmargin@=\dimen361
+\captionwidth=\dimen362
+\caption@tempdima=\dimen363
+\caption@indent=\dimen364
+\caption@parindent=\dimen365
+\caption@hangindent=\dimen366
+)
+\c@ContinuedFloat=\count370
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count371
+\c@subtable=\count372
+)
+No file bachelor-thesiseng.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 65.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 65.
+
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count373
+\scratchdimen=\dimen367
+\scratchbox=\box308
+\nofMPsegments=\count374
+\nofMParguments=\count375
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count376
+\MPscratchDim=\dimen368
+\MPnumerator=\count377
+\makeMPintoPDFobject=\count378
+\everyMPtoPDFconversion=\toks45
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.337pt, 328.62788pt, 84.50557pt)
+* v-part:(T,H,B)=(54.62845pt, 546.29498pt, 81.9427pt)
+* \paperwidth=469.47046pt
+* \paperheight=682.86613pt
+* \textwidth=328.62788pt
+* \textheight=546.29498pt
+* \oddsidemargin=-15.93298pt
+* \evensidemargin=12.23558pt
+* \topmargin=-54.64154pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package crop Info: requested driver: `' on input line 65.
+Package crop Info: detected driver: `pdftex' on input line 65.
+Package crop Info: using `pdftex' graphics driver on input line 65.
+ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
+uc: /Users/niclas/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/
+lmroman17-regular.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
+uc: /Users/niclas/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/
+lmroman12-bold.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
+uc: /Users/niclas/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/
+lmroman12-regular.luc)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 69.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 69.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 69.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 69.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 69.
+luaotfload | load : auto-selecting default features for script: dflt
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 69.
+luaotfload | load : auto-selecting default features for script: dflt
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 69.
+luaotfload | load : auto-selecting default features for script: dflt
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+! Undefined control sequence.
+\makefront ... {\@author }}\\[15mm] \large \@isrn 
+                                                  \\[4mm] \@dateofpublicatio...
+l.69 \makeintropages
+                  
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \makeintropages
+                  
+? 
+<linkuniv_sv_framed.pdf, id=4, 541.02126pt x 421.575pt>
+File: linkuniv_sv_framed.pdf Graphic file (type pdf)
+
+<use linkuniv_sv_framed.pdf>
+Package pdftex.def Info: linkuniv_sv_framed.pdf used on input line 69.
+(pdftex.def)             Requested size: 250.0pt x 199.0893pt.
+ [-1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman12-bold:script=
+latn;+trep;+tlig;"!
+<./linkuniv_sv_framed.pdf>] [0
+
+]
+Overfull \hbox (31.37212pt too wide) in paragraph at lines 69--69
+ [] 
+ []
+
+! Undefined control sequence.
+\maketitle ... {\@author }}\\[15mm] \large \@isrn 
+                                                  \\[4mm] \@dateofpublicatio...
+l.69 \makeintropages
+                  
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \makeintropages
+                  
+? 
+[1
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+] [2
+
+]
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt" [3
+
+] [4
+
+] (./bachelor-thesiseng.toc)
+\tf@toc=\write4
+ [5
+
+
+] [6
+
+]
+Chapter 1.
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+
+LaTeX Warning: Reference `towers-of-hanoi' on page 1 undefined on input line 81.
+
+
+[1
+
+] <towers-of-hanoi.png, id=47, 375.65344pt x 136.25906pt>
+File: towers-of-hanoi.png Graphic file (type png)
+
+<use towers-of-hanoi.png>
+Package pdftex.def Info: towers-of-hanoi.png used on input line 90.
+(pdftex.def)             Requested size: 256.0748pt x 92.88986pt.
+
+Underfull \hbox (badness 4279) in paragraph at lines 91--91
+[][]\EU2/lmr/m/n/10 Fig-ure 1.1: |Tower of Hanoi with three disks. Im-age sourc
+e:
+ []
+
+[2<./towers-of-hanoi.png>] [3] [4]
+Chapter 2.
+
+! Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179  \end{tikzpicture}
+                      
+? 
+[5
+
+]
+! Undefined control sequence.
+l.184 A Tree decompostion of a Graph G = \lessthen
+                                                 V,E \biggerthen is a pair \...
+? 
+! Undefined control sequence.
+l.184 ...on of a Graph G = \lessthen V,E \biggerthen
+                                                   is a pair \lessthen N,T \...
+? 
+! Undefined control sequence.
+l.184 ...essthen V,E \biggerthen is a pair \lessthen
+                                                   N,T \biggerthen where N =...
+? 
+! Undefined control sequence.
+l.184 ...gerthen is a pair \lessthen N,T \biggerthen
+                                                   where N = \{ N1,N2,...,Nn...
+? 
+
+Package natbib Warning: Citation `backstrom2004a' on page 6 undefined on input l
+ine 200.
+
+
+Package natbib Warning: Citation `Bodlaender1993' on page 6 undefined on input l
+ine 201.
+
+
+Package natbib Warning: Citation `Helmert2006' on page 6 undefined on input line
+ 202.
+
+
+Package natbib Warning: Citation `Hoffman2001' on page 6 undefined on input line
+ 203.
+
+(./bachelor-thesiseng.bbl [6])
+\@filenumb=\write5
+ [7
+
+] [8
+
+]
+<linkUniv_sigill_sv.pdf, id=75, 132.495pt x 132.495pt>
+File: linkUniv_sigill_sv.pdf Graphic file (type pdf)
+
+<use linkUniv_sigill_sv.pdf>
+Package pdftex.def Info: linkUniv_sigill_sv.pdf used on input line 209.
+(pdftex.def)             Requested size: 56.9055pt x 56.90501pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+
+ []
+
+
+Package natbib Warning: There were undefined citations.
+
+[9
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman12-bold:script=
+latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+Missing character: There is no ï¿½ (U+FFFD) in font "file:lmroman10-regular:scri
+pt=latn;+trep;+tlig;"!
+<./linkUniv_sigill_sv.pdf>] (./bachelor-thesiseng.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 31219 strings out of 494695
+ 125016,794899 words of node,token memory allocated
+ 453 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 2 kern, 7 attribute, 49 glue_spec, 7 attrib
+ute_list, 1 write nodes
+   avail lists: 1:9,2:10430,3:1008,4:2342,5:134,6:2181,7:40,9:518,10:182
+ 33910 multiletter control sequences out of 65536+600000
+ 45 fonts using 3442375 bytes
+ 67i,11n,83p,730b,1680s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2014/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
+f>{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/t
+exlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2014
+/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2014/texmf-dist
+/fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/local/texlive/2014/te
+xmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2014/te
+xmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2014
+/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2014
+/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><</usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><</usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/lm/lmr10.pfb><</usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/lm/lmsy10.pfb>
+Output written on bachelor-thesiseng.pdf (17 pages, 128576 bytes).
+
+PDF statistics: 137 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

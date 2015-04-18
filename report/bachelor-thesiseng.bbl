@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bodlaender1993}
+HL~Bodlaender.
+\newblock {A linear time algorithm for finding tree-decompositions of small
+  treewidth}.
+\newblock {\em Proceedings of the twenty-fifth annual ACM symposium \ldots},
+  1993.
+
+\bibitem{Helmert2006}
+M~Helmert.
+\newblock {The Fast Downward: Planning System.}
+\newblock {\em J. Artif. Intell. Res.(JAIR)}, 2006.
+
+\end{thebibliography}
