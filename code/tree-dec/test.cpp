@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
-#include <set>
 #include <algorithm>
+#include <limits>
 
-using matrix = std::vector< std::set<unsigned> >;
+using matrix = std::vector< std::vector<int> >;
 
 
 //The (directed ) Graph is implemented as a adjacency list
@@ -13,19 +13,19 @@ struct Graph
 };
 
 /*
- * Each row in the matrix "subset" in the class TreeDecomposition is a node in the tree
+ * Each row in the matrix "subset" in the class TreeDecomposition represent a node in the tree
  * If the subset looks like:
  * 0 ->A,B
  * 1 ->A,D
  * 2 ->C,D
- * Means that we have three nodes in the graph were N_0 is (A,B) for exampel
+ * Means for example that we have three nodes in the graph were N_0 is (A,B)
  *
  * The matrix "tree" in the class TreeDecomposition stores the edges for the tree
  * The matrix tree looks like
  * 0 -> 1
  * 1 -> 0, 2
  * 2 -> 1
- * Means that node (A,B) points to the node (A,D) for exampel
+ * Means that node (A,B) points to the node (A,D)
  */
 struct TreeDecomposition
 {
@@ -36,7 +36,7 @@ struct TreeDecomposition
 
 void print_graph( Graph );
 void print_TD ( TreeDecomposition );
-TreeDecomposition Permuation_to_tree_decomposition( Graph, unsigned );
+TreeDecomposition Permuation_to_tree_decomposition( Graph, int );
 
 
 
@@ -44,42 +44,41 @@ int main()
 {
    Graph G;
    
-   std::set<unsigned> edges;
+   std::vector<int> edges;
 
    /*
-    * Create thre four vertexed (0-3). 
-    * Index 0 in G.matrix in vertex 1. G.matrix.at( 0 ).at( j ), where j < G.matrix.size() 
-    * will return edge j for vertex 0. Since the edges are stored in a set, there can be
-    * no parallel edges and they are sorted by numbers
+    * We create a Graph G with three vertexex  (0-3). 
+    * Index 0 in G.matrix is vertex 1. G.matrix.at( 0 ).at( j ), where j < G.matrix.size() 
+    * will return edge j for vertex 0. All pararell edges will be removed in the TreeDecompostion-function
     */
 
    //vertex 0
-   edges.insert( 1 );
-   edges.insert( 2 );
+   edges.push_back( 1 );
+   edges.push_back( 2 );
    G.vertex.push_back( edges );
 
    //vertex 1
    edges.clear();
-   edges.insert( 0 );
-   edges.insert( 2 );
-   edges.insert( 3 );
+   edges.push_back( 0 );
+   edges.push_back( 2 );
+   edges.push_back( 3 );
    G.vertex.push_back( edges );
 
    //vertex 2
    edges.clear();
-   edges.insert( 0 );
-   edges.insert( 1 );
+   edges.push_back( 0 );
+   edges.push_back( 1 );
    G.vertex.push_back( edges );
 
    //vertex 3
    edges.clear();
-   edges.insert( 1 );
+   edges.push_back( 1 );
    G.vertex.push_back( edges );
 
    print_graph( G );
 
-   TreeDecomposition temp  = Permuation_to_tree_decomposition( G, 0 );
-   print_TD( temp );
+   TreeDecomposition TD  = Permuation_to_tree_decomposition( G, 0 );
+   print_TD( TD );
 
 
    return 0;
@@ -87,91 +86,96 @@ int main()
 
 
 
-Graph eliminating( const Graph G_in, unsigned v_1 )
+Graph eliminating( const Graph G_in, int v_1 )
 {
    /*
-    * The node v_1 and all edges that points to v_1 are not removed
-    * Instead of removing them which will vilance the structure of the graph, we simply ignore all edged that has a lower value then v_1
-    * Which means, this function just edges
+    * The node v_1 and all edges that points to v_1 will not removed,
+    * Instead of removing them which will vilance the structure of the graph, we simply ignore all edged that has a lower value then v_1 later
+    * Before we return, we make sure that there are no parallel edges
     */
 
    Graph G = G_in;
-   for( auto j = v_1 + 1; j < G.vertex.size(); ++j )
+   for( unsigned long i = v_1 + 1; i < G.vertex.size(); ++i ) // for all vertex > v_1
    {
       for( auto& edge : G.vertex.at( v_1 ) ) // for all edged in v_1
       {
-         G.vertex.at(j).insert( edge );
+         G.vertex.at(i).push_back( edge );
       }
    }
 
-   return G;
+   for( unsigned long i = v_1 + 1; i < G.vertex.size(); ++i )
+   {
+      std::vector<int>& vec = G.vertex.at(i);
+      sort( vec.begin(), vec.end() );
+      vec.erase( unique( vec.begin(), vec.end() ), vec.end() );
+   }
+      return G;
 }
 
 
-TreeDecomposition Permuation_to_tree_decomposition( Graph G, unsigned v_1 )
+TreeDecomposition Permuation_to_tree_decomposition( Graph G, int v_1 )
 {
    if( G.vertex.size() - v_1 == 1 )
    {
-      TreeDecomposition T;
-      std::set<unsigned> s{ v_1 };
-      std::set<unsigned> t{  };
+      TreeDecomposition TD; 
+      
+      TD.subset.push_back( { v_1 } );
+      TD.tree.push_back( {} );
 
-      T.subset.push_back( s );
-      T.tree.push_back( t );
-
-      return T;
+      return TD;
    }
 
    Graph G_ = eliminating( G, v_1 );
-   TreeDecomposition T = Permuation_to_tree_decomposition( G_, v_1 + 1);
+   TreeDecomposition TD = Permuation_to_tree_decomposition( G_, v_1 + 1);
 
-   //find v_j 
-   unsigned v_j;   
+   //find v_j AND Ng(v_1) 
+   int v_j = std::numeric_limits<int>::max();  
+   std::vector<int> Ng_v_1;
    for( auto& edge : G.vertex.at( v_1 ) )
-   {
-      if( edge > v_1 ) //the neighbours are sorted
-      {
-         v_j = edge;
-          break;
-      }
-   }
-   
-   //Ng(v_1)
-   std::set<unsigned> temp;
-   for( auto edge : G.vertex.at( v_1 ) )
    {
       //All edges smaller shall be ignored because they should been removed in earlier steps
       if( edge > v_1  )
       {
-         temp.insert( edge );
+         //Add edge to Ng(v_1)
+         Ng_v_1.push_back( edge );
+
+         //Find v_j
+         if( v_j > edge )
+         {
+            v_j = edge;
+         }
       }
    }
+   
    //Ng[v_1]
-   temp.insert( v_1 );
-   T.subset.push_back( temp );
+   Ng_v_1.push_back( v_1 );
+
+
+   //Add Ng[v_1] as a node
+   TD.subset.push_back( Ng_v_1 );
 
    
    //Add edges X_V_1, X_V_J
-   T.tree.push_back( std::set<unsigned> {} );
-   unsigned new_edge;
+   TD.tree.push_back( {} );
+   int new_edge;
 
    //From X_v_1
    new_edge = G.vertex.size() - v_j - 1;
-   T.tree.at( T.tree.size() - 1 ).insert( new_edge );
+   TD.tree.at( TD.tree.size() - 1 ).push_back( new_edge );
 
    //To X_v_1
-   new_edge = T.tree.size() - 1;
-   T.tree.at( G.vertex.size() - v_j - 1 ).insert( new_edge );
+   new_edge = TD.tree.size() - 1;
+   TD.tree.at( G.vertex.size() - v_j - 1 ).push_back( new_edge );
 
    
-   return T;
+   return TD;
 }
 
 void print_graph( Graph G )
 {
    std::cout << "*******GRAPH*******\n";
    matrix list = G.vertex; 
-   for( auto i = 0; i < list.size(); ++i)
+   for( unsigned long i = 0; i < list.size(); ++i)
    {
       auto v = list.at(i);
       std::cout << i << " -> ";
@@ -188,22 +192,9 @@ void print_TD( TreeDecomposition TD )
 {
    std::cout << "*******TreeDecomposition*******\n";
 
-   /*
-   for( auto i = 0; i < TD.subset.size(); ++i)
-   {
-      auto v = TD.subset.at(i);
-      for( auto& e : v )
-      {
-         std::cout << e << " ";
-      }
-      std::cout << "\n";
-   } 
-   */
-
-  matrix list = TD.tree; 
-
+   matrix list = TD.tree; 
   //print a vertex in the tree
-  for( auto i = 0; i < list.size(); ++i)
+  for( unsigned long i = 0; i < list.size(); ++i)
   {
      std::cout << "\n( ";
      auto v = TD.subset.at(i);
